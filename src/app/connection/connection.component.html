@@ -1,0 +1,29 @@
+<h2 style="color: mediumvioletred"><strong>INFOSHOP</strong></h2>
+<div class="container">
+  <label style="color: darkslateblue">Tu peut ajouter un produit</label><input type="button" value="Ajouter" class="btn btn-success btn-sm" routerLink="/AjoutProd">
+  <table class="table">
+    <tr>
+      <th style="color: darkorchid"><h3>Images&emsp;</h3></th>
+      <th style="color: darkorchid"><h3>#&emsp;</h3></th>
+      <th style="color: darkorchid"><h3>Designation&emsp;</h3></th>
+      <th style="color: darkorchid"><h3>Prix&emsp;</h3></th>
+      <th style="color: darkorchid"><h3>Quantité&emsp;</h3></th>
+      <th style="color: darkorchid"><h3>Description&emsp;</h3></th>
+    </tr>
+    <tr class="table-life" *ngFor="let p of produits">
+      <td><img src="{{p.imageUrl}}" width="100px" height="100px"></td>
+      <th>{{p.id  }}</th>
+      <td>{{p.designation}}</td>
+      <td>{{p.prix}}</td>
+      <td>{{p.qte}}</td>
+      <td>{{p.description}}</td>
+      <td>
+        <input type="button" value="Modifier" class="btn btn-info btn-sm" [routerLink]="['/modifProd/',p.id]">
+        <input type="button" value="Supprimer" class="btn btn-danger btn-sm" (click)="supprimerProduit(p.id)">
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+

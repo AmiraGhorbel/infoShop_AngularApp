@@ -1,0 +1,17 @@
+<h1 style="text-align: center;color: magenta"><strong>Mon panier</strong></h1>
+<form>
+  <div class="form-group">
+    <img src="{{p.imageUrl}}" width="200px" height="200px"><br>
+    <h4 style="text-align: center;color: darkslateblue"><strong>{{p.designation}}</strong></h4><br>
+    <label style="color: cornflowerblue">Description:</label><br><textarea>{{p.description}}</textarea><br>
+    <label for="qte" style="color: cornflowerblue">Saisir la quantité que vous les vous l'acheté:</label>
+   <input type="text" class="form-control" id="qte"
+           name="qte" [(ngModel)]="p.qte">
+    <label for="prix" style="color: cornflowerblue">Prix:</label>
+    <input type="text" class="form-control" id="prix"
+           name="prix" [(ngModel)]="p.prix" disabled>
+    <label style="color: cornflowerblue">Prix Total:</label><br>
+    <input type="text" class="form-control" id="prixTotal" name="prixTotal" [(ngModel)]="p.prix * p.qte" disabled><br>
+    <button class="btn btn-success"><h5><strong>Payer</strong></h5></button>
+  </div>
+</form>

@@ -1,0 +1,108 @@
+{
+  "produit": [
+    {
+      "imageUrl": "assets/miniprojet/Pc-Portable-lenovo.jpg",
+      "id": "1",
+      "designation": "Pc Portable lenovo ",
+      "prix": "740.000",
+      "qte": 4,
+      "description": "Ecran: 15.6 FHD Cpu Intel Celeron N4000 dual-core (1.10 GHz Up To 2.60 GHz, 2 Cœurs, 2 threads, 4 Mo mémoires cache)\nRam: 4 GB, DDR4/LPDDR4 upto 2400 MT/s, Up To 8 GB)\nStockage: 500 Go \nGpu: Intel® UHD Graphics 600 \nSystème d’exploitation: Free-Dos\nCouleur: Chocolat (Maroun), Bleu, Silver\nGarantie: 1 an"
+    },
+    {
+      "imageUrl": "assets/miniprojet/pc gamer.jpg",
+      "id": "2",
+      "designation": "PC Portable Gamer Asus  ",
+      "prix": 4500,
+      "qte": 3,
+      "description": "Clavier AZERTY Français\nEcran : 3x NanoEdge 17'' FHD IPS 300 nits NTSC 72% 144Hz 3ms réponse\nProcesseur : Intel Core i7-8750H (6 cœurs/12 Thread)\nMémoire : 16 Go de RAM (DDR4)\nStockage : 1 To HDD1 + 8 Go SSHD Firecuda + 256 Go SSD PCIE\nCarte graphique : Nvidia RTX 2060 6G\nConnectivité : 5 ports USB"
+    },
+    {
+      "imageUrl": "assets/miniprojet/pc-portable-asus.jpg",
+      "id": "3",
+      "designation": "pc portable Asus",
+      "prix": 4000,
+      "qte": 2,
+      "description": "Ecran 13.3\n Full HD LED \nProcesseur Intel Core i7-8565U, up to 4.6 Ghz, 8 Mo de mémoire cache \nMémoire 8 Go\nDisque 256 Go SSD \nCarte graphique Nvidia GeForce MX150, 2 Go de mémoire GDDR5 dédiée \nCouleur Bleu roi\nGarantie 2 ans\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/clavier2.jpg",
+      "id": "4",
+      "designation": "clavier",
+      "prix": 20,
+      "qte": 5,
+      "description": "Couleur :noir\nConnections :USB\nMarque :VicTsing\nNumber of buttons :105\nDescription :Français-AZERTY\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/souris.jpg",
+      "id": "5",
+      "designation": "souris",
+      "prix": 18,
+      "qte": 10,
+      "description": "Souris filaire pour Gamer\n 7 boutons\n800 ‎- 1200 ‎- 1600 ‎- 2400 DPI\nRed Army\nWindows XP jusqu‎'‎à Windows 10/Linux/Mac\n132 x 87‎,‎3 x 42‎,‎5 mm\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/clavier.jpg",
+      "id": "6",
+      "designation": "Clavier et souris",
+      "prix": 70,
+      "qte": 20,
+      "description": "Souris 4D: DPI: 1200-2400 - 3200\nLongueur de câble: 1,5 m\nClavier RVB LED: Standard 104 clés noires ( français arabisé)\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/casque.jpg",
+      "id": "7",
+      "designation": "Casque",
+      "prix": 40,
+      "qte": 30,
+      "description": "voltage de batterie: 3.7V\ndistance du bluetooth: 10m \nDurée d'utilisation: 10H\nDurée de veille: 250h\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/mini-haut-parleur.jpg",
+      "id": "8",
+      "designation": "Mini haut Parleur",
+      "prix": 8,
+      "qte": 9,
+      "description": "Mini Haut-parleur mobile USB 2.0 \n Sortie 2x 2.5W \nGamme de fréquences 90 Hz – 20 kHz \nImpédance 4 \nGarantie 1 an\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/ecouteur.jpg",
+      "id": "9",
+      "designation": "Ecouteur",
+      "prix": 20,
+      "qte": 50,
+      "description": "La batterie des écouteurs est fournie avec un panneau de protection, pas besoin de s'inquiéter de la perte de la batterie\n3Bluetooth 5.0 puissant\nla distance de connexion est plus grande\nconsommation d'énergie réduite\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/disque-dur.jpg",
+      "id": "10",
+      "designation": "Disque Dur Interne",
+      "prix": 190,
+      "qte": 4,
+      "description": "Disque Dur Interne 3.5 Toshiba \nCapacité 2 To\nInterface SATA III 6 Gb/s 7200 Rpm - Neuf \nGarantie 1 an\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/memoire.jpg",
+      "id": "11",
+      "designation": "Mémoire Vive ",
+      "prix": 100,
+      "qte": 6,
+      "description": "Mémoire Vive 16gb RAM pour Medion Akoya S17402 Md63000\nNombre de Pins : 260 Pin \n Double Channel-Fähig \n Tension de Service: 1.2 V\nType de Puce : Ddr4 Sodimm, So-Dimm \n Speichertakt : Pc4-17000 2133 MHZ / 2.133 GHZ\n"
+    },
+    {
+      "imageUrl": "assets/miniprojet/flash.jpg",
+      "id": "12",
+      "designation": "flash disque",
+      "prix": 10,
+      "qte": 30,
+      "description": "FLASH DISQUE SANDISK 8GB CRUZER BLADE USB 2.0\nSa conception compacte et légère la rend facile à transporter, La clé USB SanDisk 8 Go Cruzer Blade est une clé USB portable qui vous permet de transporter et de transférer des fichiers. Elle est tellement simple à utiliser que vous pouvez être opérationnel en quelques secondes."
+    },
+    {
+      "id": "13",
+      "imageUrl": "",
+      "designation": "Golf",
+      "prix": "41",
+      "qte": "4",
+      "description": "chausures pour bebe"
+    }
+  ]
+}

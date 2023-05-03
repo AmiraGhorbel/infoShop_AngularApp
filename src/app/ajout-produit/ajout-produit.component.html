@@ -1,0 +1,35 @@
+<h2 style="color: darkorchid; font-weight: bold">Ajout d'un produit</h2>
+
+<form (ngSubmit)="ajoutProduit()">
+  <div class="form-group">
+    <label style="color: mediumvioletred" for="imageUrl">Images</label>
+    <input type="text" class="form-control" id="imageUrl"
+           name="imageUrl" [(ngModel)]="p.imageUrl">
+  </div>
+  <div class="form-group">
+    <label style="color: mediumvioletred" for="id">ID</label>
+    <input type="text" class="form-control" id="id"
+           name="id" [(ngModel)]="p.id">
+  </div>
+  <div class="form-group">
+    <label style="color: mediumvioletred" for="Designation">Designation</label>
+    <input type="text" class="form-control" id="designation"
+           name="designation" [(ngModel)]="p.designation">
+  </div>
+  <div class="form-group">
+    <label style="color: mediumvioletred" for="prix">Prix</label>
+    <input type="text" class="form-control" id="prix"
+           name="prix" [(ngModel)] = "p.prix">
+  </div>
+  <div style="color: mediumvioletred" class="form-group">
+    <label for="qte">Quantité</label>
+    <input type="text" class="form-control" id="qte"
+           name="qte" [(ngModel)] = "p.qte">
+  </div>
+  <div style="color: mediumvioletred" class="form-group">
+    <label for="description">Description</label>
+    <input type="text" class="form-control" id="description"
+           name="description" [(ngModel)]="p.description">
+  </div>
+  <button type="submit" class="btn btn-success">Ajouter</button>
+</form>
